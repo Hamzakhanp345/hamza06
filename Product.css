@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.continer{
+    background: #1e2227;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 8%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: #1e2227;
+    z-index: 1;
+}
+.nav-icons img{
+  margin-top:px;
+  width: 30px;
+  margin-left: 35px;  
+}
+.logo img{
+    width: 120px;
+    cursor: pointer;
+}
+.row{
+    /* border: 7px solid black; */
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* background-color: cadetblue; */
+}
+.col-1, .col-2{
+    /* border: 2px solid black; */
+    height: 100%;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.col-2{
+    background-color: red;
+}
+.col-1{
+    padding-left: 7%;
+    padding-top: 20px;
+}
+.col-1 h1{
+   font-size: 74px;
+   line-height: 70px;
+   margin-bottom: 5px;
+}
+.col-1 p{
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.col-1 h2{
+    /* border: 2px solid red; */
+    margin-top: 25px;
+}
+.button{
+    border: 1px solid rgb(179, 172, 172);
+    width: fit-content;
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 35px;
+    background-color: rgb(234, 4, 4);
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.button:hover{
+    color: rgb(252, 31, 57);
+    font-weight: bold;
+}
+.feature-image{
+    width: 100%;
+    text-align: center;
+}
+.feature-image img{
+    width: 80%;
+    /* height: 70%; */
+}
+.row-image{
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 70px auto 0;
+}
+.row image,.small-image{
+    width: 120px;
+    height: 80%;
+    background-color: rgb(111, 109, 106);
+    transform: translateX(-50px 20px) rotate(-20deg);
+}
+.small-image,img{
+    transform: translateX(-50px 20px) rotate(-20deg);
+
+}
